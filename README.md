@@ -32,18 +32,18 @@ If the input is blank or invalid, the app responds with a helpful error message.
 ---
 
 ## 📂 Project Structure
-final_project/
-├── EmotionDetection/
-│ ├── init.py
-│ └── emotion_detection.py
-├── static/
-│ └── mywebscript.js
-├── templates/
-│ └── index.html
-├── server.py
-├── test_emotion_detection.py
-├── README.md
-
+    ```final_project
+    ├── EmotionDetection/
+    │   ├── __init__.py/
+    │   ├── emotion_detection.py/
+    ├── static/
+    │   └── backend/
+    ├── templates/
+    │   └── index.html/
+    ├── server/
+    ├── test_emotion_detection.py/
+    ├── README.md/
+    ```
 ---
 
 ## 🧪 Example Output
@@ -59,5 +59,4 @@ For the given statement, the system response is
 'joy': 0.9680 and
 'sadness': 0.0497.
 The dominant emotion is joy.
-
 ---
